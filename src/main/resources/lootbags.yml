@@ -1,0 +1,29 @@
+Lootbags:
+  #This does support multiple lootbags.
+  TierI:
+    Amount-Of-Rewards: 4
+    Particles: FLAME
+    # Only applies to the name.
+    # This is not implemented yet! Sorry. Just dont use it, use the name with color codes!
+    Color: '&6&l'
+    Winnings:
+      Apple:
+        Chance: 99.9
+        Amount: 5
+      Diamond:
+        Chance: 0.1
+        Amount: 1
+        Name: '&6Special Diamond'
+        Lore:
+        - '&6The specialist diamond'
+        - ''
+        - '&6Cool, Right?'
+    Commands:
+      - 'cmd:(give %player% cooked_beef 64), chance:(20)'
+
+    Name: '&6&lLootbag I'
+    Lore:
+    - '&6&lA Tier I Lootbag!'
+    - ''
+    - '&7&lRight click to open. '
+    Block: Chest

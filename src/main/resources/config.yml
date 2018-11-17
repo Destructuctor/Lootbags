@@ -1,0 +1,7 @@
+prefix: '&8(&c&lDoom&6&lCrates&8)'
+
+##### MESSAGES #####
+
+cannot-place-message: '&c&lYou cannot place this!'
+no-such-crate-message: '&c&lThat crate does not exist!'
+wrong-usage-message: '&c&lWrong usage. Please try again!'

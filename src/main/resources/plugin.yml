@@ -1,0 +1,13 @@
+name: Lootbags
+version: 1.0
+main: com.dest.Lootbags
+commands:
+  crates:
+    usage: /<command>
+    permission: lootbags.use
+    description: Lootbag commands
+
+permissions:
+  crates.use:
+    description: The permission to use Lootbag commands
+    default: op
